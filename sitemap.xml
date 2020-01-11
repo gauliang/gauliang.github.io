@@ -3,15 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gauliang.github.io/</loc>
+    <loc>https://gauliang.github.io/tags/api-getway/</loc>
+    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/series/</loc>
+    <loc>https://gauliang.github.io/blog/</loc>
+    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/krakend/</loc>
+    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/service-mesh/</loc>
+    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/microservice-api-gateway-krakend/</loc>
+    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/series/</loc>
   </url>
   
 </urlset>

@@ -85,12 +85,17 @@ $(function () {
 // Hero animate
 + function () {
     var svgbox = $('#hero-svg');
+
+    if(svgbox.length==0){
+        return false;
+    }
+    
     var draw = SVG().addTo('#hero-svg').size("100%", "100%")
     var width = svgbox.width();
     var height = svgbox.height();
     var types = ['rect','circle','line'];
     var elements = []
-    var number = 80;
+    var number = 80;    
 
     var random = function(min, max){
         return Math.floor(Math.random() * max + min)
