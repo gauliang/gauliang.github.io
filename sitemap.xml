@@ -3,17 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://gauliang.github.io/tags/api-getway/</loc>
-    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
+    <loc>https://gauliang.github.io/blog/</loc>
+    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
+    <loc>https://gauliang.github.io/tags/dashboard/</loc>
+    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/docker/</loc>
+    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/ingress-nginx/</loc>
+    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/kubernetes/</loc>
+    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/creating-single-control-plane-cluster-with-kubeadm/</loc>
+    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/api-getway/</loc>
     <lastmod>2020-01-11T15:28:13+08:00</lastmod>
   </url>
   
@@ -24,11 +54,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/service-mesh/</loc>
-    <lastmod>2020-01-11T15:28:13+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/</loc>
     <lastmod>2020-01-11T15:28:13+08:00</lastmod>
   </url>
   

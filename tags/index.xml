@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Gauliang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sat, 11 Jan 2020 15:28:13 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jan 2020 20:30:54 +0800</lastBuildDate>
     
 	<atom:link href="https://gauliang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>dashboard</title>
+      <link>https://gauliang.github.io/tags/dashboard/</link>
+      <pubDate>Sun, 19 Jan 2020 20:30:54 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/dashboard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docker</title>
+      <link>https://gauliang.github.io/tags/docker/</link>
+      <pubDate>Sun, 19 Jan 2020 20:30:54 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ingress-nginx</title>
+      <link>https://gauliang.github.io/tags/ingress-nginx/</link>
+      <pubDate>Sun, 19 Jan 2020 20:30:54 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/ingress-nginx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>kubernetes</title>
+      <link>https://gauliang.github.io/tags/kubernetes/</link>
+      <pubDate>Sun, 19 Jan 2020 20:30:54 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>api-getway</title>
