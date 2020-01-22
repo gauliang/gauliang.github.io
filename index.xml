@@ -6,10 +6,24 @@
     <description>Recent content on Gauliang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 21 Jan 2020 23:20:31 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 22 Jan 2020 16:32:22 +0800</lastBuildDate>
     
 	<atom:link href="https://gauliang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在 Linux 和 Windows 平台安装 Docker CE</title>
+      <link>https://gauliang.github.io/blog/2020/install-docker-engine/</link>
+      <pubDate>Wed, 22 Jan 2020 16:32:22 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/blog/2020/install-docker-engine/</guid>
+      <description>Docker 是一个用于开发、交付和运行应用程序的开放平台。Docker 使您能够将应用程序与基础架构分开，以与管理应用程序相同的方式来管理基础架构，从而快速交付软件。通过利用 Docker 快速交付、测试和部署代码的方法，您可以大大缩短编写代码和在生产环境中运行代码之间的时间。
+Windows 系统安装 windows10 操作系统自带 windows hyper-v 可以非常方便的运行 Docker。 在 windows7 系统上则稍微复杂一点，需通过安装 Docker-Toolbox 来使用 Docker（用 Oracle virtualbox 来取代 Hyper-V）。
+ windows 10 安装 Docker for Windows Installer windows 7 安装 Docker Toolbox  安装完成后，要启动 Docker 请从开始菜单打开 Docker for Winodws，window7 系统需打开 Kitematic，Kitematic 提供直观的图形用户界面来运行 Docker 容器。
+虽然在 windows7 平台通过 DockerToolbox 可以正常运行 Docker，但使用体验一般，建议迁移到 Linux 平台，debian / ubuntu / fedora 等都是不错的选择。
+Linux 系统安装 这里以 Fedora 为例（当前最新版本为 Fedora28），简要整理一下安装过程，其他环境大同小异。
+卸载旧版本 如果存在旧版本的 Docker 则将其卸载，不存在可忽略此步骤。</description>
+    </item>
     
     <item>
       <title>ubuntu 常用操作指南</title>

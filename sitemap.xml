@@ -4,12 +4,27 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-01-21T23:20:31+08:00</lastmod>
+    <lastmod>2020-01-22T16:32:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/docker/</loc>
+    <lastmod>2020-01-22T16:32:22+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/</loc>
-    <lastmod>2020-01-21T23:20:31+08:00</lastmod>
+    <lastmod>2020-01-22T16:32:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-01-22T16:32:22+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/install-docker-engine/</loc>
+    <lastmod>2020-01-22T16:32:22+08:00</lastmod>
   </url>
   
   <url>
@@ -19,11 +34,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/linux/</loc>
-    <lastmod>2020-01-21T23:20:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/</loc>
     <lastmod>2020-01-21T23:20:31+08:00</lastmod>
   </url>
   
@@ -64,11 +74,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/dashboard/</loc>
-    <lastmod>2020-01-19T20:30:54+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/docker/</loc>
     <lastmod>2020-01-19T20:30:54+08:00</lastmod>
   </url>
   
