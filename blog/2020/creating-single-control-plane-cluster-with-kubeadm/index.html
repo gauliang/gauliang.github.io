@@ -8,13 +8,12 @@
 <link rel="stylesheet" href="/vendor/themify-icons/themify-icons.css">
 
 
-<link rel="stylesheet" href="https://gauliang.github.io/scss/main.min.b30dea6d24c3319ff1d5bc870f0832e3dda045cefcba3c96e77130e61fdb0ad0.css"><body data-spy="scroll" data-target="#table-of-contents"><header class="navigation" id="navigation">
+<link rel="stylesheet" href="https://gauliang.github.io/scss/main.min.85ccbbf8956ae1ad6f8aaff622523ca3c5cbc6c4120c1a3a3ccc965cc4679716.css"><body data-spy="scroll" data-target="#table-of-contents"><header class="navigation" id="navigation">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="/">
-                Gl
-            </a>
-            
+                <img src="/logo.svg" alt="Gl">
+            </a>            
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="ti-menu"></span>
@@ -89,7 +88,7 @@
         <div class="col-xl-8 post-content">
             <div class="post-meta-count">
                 <i class="ti-info-alt"></i>
-                <strong>阅读全文约需 11 分钟</strong>
+                <strong>阅读全文约需 12 分钟</strong>
             </div>
             <article id="post-content">
 
@@ -718,10 +717,10 @@ wget https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/st
 </span></code></pre></td>
 <td class="lntd">
 <pre class="chroma"><code class="language-yaml" data-lang="yaml">...<span class="w">
-</span><span class="w">      </span>nodeSelector<span class="p">:</span><span class="w">
-</span><span class="w">        </span>kubernetes.io/os<span class="p">:</span><span class="w"> </span>linux<span class="w">
-</span><span class="w">        </span>node.k8s.xx.cn/role<span class="p">:</span><span class="w"> </span>ingress<span class="w">
-</span><span class="w">      </span>serviceAccountName<span class="p">:</span><span class="w"> </span>nginx-ingress-serviceaccount<span class="w">
+</span><span class="w">      </span><span class="k">nodeSelector</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">        </span><span class="k">kubernetes.io/os</span><span class="p">:</span><span class="w"> </span>linux<span class="w">
+</span><span class="w">        </span><span class="k">node.k8s.xx.cn/role</span><span class="p">:</span><span class="w"> </span>ingress<span class="w">
+</span><span class="w">      </span><span class="k">serviceAccountName</span><span class="p">:</span><span class="w"> </span>nginx-ingress-serviceaccount<span class="w">
 </span><span class="w"></span>...<span class="w">
 </span></code></pre></td></tr></table>
 </div>
@@ -755,30 +754,30 @@ wget https://raw.githubusercontent.com/kubernetes/ingress-nginx/master/deploy/st
 </span><span class="lnt">25
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml">apiVersion<span class="p">:</span><span class="w"> </span>v1<span class="w">
-</span><span class="w"></span>kind<span class="p">:</span><span class="w"> </span>Service<span class="w">
-</span><span class="w"></span>metadata<span class="p">:</span><span class="w">
-</span><span class="w">  </span>name<span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
-</span><span class="w">  </span>namespace<span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
-</span><span class="w">  </span>labels<span class="p">:</span><span class="w">
-</span><span class="w">    </span>app.kubernetes.io/name<span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
-</span><span class="w">    </span>app.kubernetes.io/part-of<span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
-</span><span class="w"></span>spec<span class="p">:</span><span class="w">
-</span><span class="w">  </span>type<span class="p">:</span><span class="w"> </span>ClusterIP<span class="w">
-</span><span class="w">  </span>externalIPs<span class="p">:</span><span class="w">
-</span><span class="w">    </span>-<span class="w"> </span><span class="m">10.163</span><span class="m">.10</span><span class="m">.7</span><span class="w">
-</span><span class="w">  </span>ports<span class="p">:</span><span class="w">
-</span><span class="w">    </span>-<span class="w"> </span>name<span class="p">:</span><span class="w"> </span>http<span class="w">
-</span><span class="w">      </span>port<span class="p">:</span><span class="w"> </span><span class="m">80</span><span class="w">
-</span><span class="w">      </span>targetPort<span class="p">:</span><span class="w"> </span><span class="m">80</span><span class="w">
-</span><span class="w">      </span>protocol<span class="p">:</span><span class="w"> </span>TCP<span class="w">
-</span><span class="w">    </span>-<span class="w"> </span>name<span class="p">:</span><span class="w"> </span>https<span class="w">
-</span><span class="w">      </span>port<span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
-</span><span class="w">      </span>targetPort<span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
-</span><span class="w">      </span>protocol<span class="p">:</span><span class="w"> </span>TCP<span class="w">
-</span><span class="w">  </span>selector<span class="p">:</span><span class="w">
-</span><span class="w">    </span>app.kubernetes.io/name<span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
-</span><span class="w">    </span>app.kubernetes.io/part-of<span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="k">apiVersion</span><span class="p">:</span><span class="w"> </span>v1<span class="w">
+</span><span class="w"></span><span class="k">kind</span><span class="p">:</span><span class="w"> </span>Service<span class="w">
+</span><span class="w"></span><span class="k">metadata</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">  </span><span class="k">name</span><span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
+</span><span class="w">  </span><span class="k">namespace</span><span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
+</span><span class="w">  </span><span class="k">labels</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span><span class="k">app.kubernetes.io/name</span><span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
+</span><span class="w">    </span><span class="k">app.kubernetes.io/part-of</span><span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
+</span><span class="w"></span><span class="k">spec</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">  </span><span class="k">type</span><span class="p">:</span><span class="w"> </span>ClusterIP<span class="w">
+</span><span class="w">  </span><span class="k">externalIPs</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span>- <span class="m">10.163</span><span class="m">.10</span><span class="m">.7</span><span class="w">
+</span><span class="w">  </span><span class="k">ports</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span>- <span class="k">name</span><span class="p">:</span><span class="w"> </span>http<span class="w">
+</span><span class="w">      </span><span class="k">port</span><span class="p">:</span><span class="w"> </span><span class="m">80</span><span class="w">
+</span><span class="w">      </span><span class="k">targetPort</span><span class="p">:</span><span class="w"> </span><span class="m">80</span><span class="w">
+</span><span class="w">      </span><span class="k">protocol</span><span class="p">:</span><span class="w"> </span>TCP<span class="w">
+</span><span class="w">    </span>- <span class="k">name</span><span class="p">:</span><span class="w"> </span>https<span class="w">
+</span><span class="w">      </span><span class="k">port</span><span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
+</span><span class="w">      </span><span class="k">targetPort</span><span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
+</span><span class="w">      </span><span class="k">protocol</span><span class="p">:</span><span class="w"> </span>TCP<span class="w">
+</span><span class="w">  </span><span class="k">selector</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span><span class="k">app.kubernetes.io/name</span><span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
+</span><span class="w">    </span><span class="k">app.kubernetes.io/part-of</span><span class="p">:</span><span class="w"> </span>ingress-nginx<span class="w">
 </span><span class="w"></span>---<span class="w">
 </span></code></pre></td></tr></table>
 </div>
@@ -818,22 +817,22 @@ kubectl apply -f service-nodeport.yaml
 </span><span class="lnt">16
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml">kind<span class="p">:</span><span class="w"> </span>Service<span class="w">
-</span><span class="w"></span>apiVersion<span class="p">:</span><span class="w"> </span>v1<span class="w">
-</span><span class="w"></span>metadata<span class="p">:</span><span class="w">
-</span><span class="w">  </span>name<span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
-</span><span class="w">  </span>namespace<span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
-</span><span class="w">  </span>labels<span class="p">:</span><span class="w">
-</span><span class="w">    </span>k8s-app<span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
-</span><span class="w"></span>spec<span class="p">:</span><span class="w">
-</span><span class="w">  </span>ports<span class="p">:</span><span class="w">
-</span><span class="w">    </span>-<span class="w"> </span>protocol<span class="p">:</span><span class="w"> </span>TCP<span class="w">
-</span><span class="w">      </span>port<span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
-</span><span class="w">      </span>targetPort<span class="p">:</span><span class="w"> </span><span class="m">8443</span><span class="w">
-</span><span class="w">  </span>selector<span class="p">:</span><span class="w">
-</span><span class="w">    </span>k8s-app<span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
-</span><span class="w">  </span>type<span class="p">:</span><span class="w"> </span>ClusterIP<span class="w">
-</span><span class="w">  </span>sessionAffinity<span class="p">:</span><span class="w"> </span>None<span class="w">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="k">kind</span><span class="p">:</span><span class="w"> </span>Service<span class="w">
+</span><span class="w"></span><span class="k">apiVersion</span><span class="p">:</span><span class="w"> </span>v1<span class="w">
+</span><span class="w"></span><span class="k">metadata</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">  </span><span class="k">name</span><span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
+</span><span class="w">  </span><span class="k">namespace</span><span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
+</span><span class="w">  </span><span class="k">labels</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span><span class="k">k8s-app</span><span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
+</span><span class="w"></span><span class="k">spec</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">  </span><span class="k">ports</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span>- <span class="k">protocol</span><span class="p">:</span><span class="w"> </span>TCP<span class="w">
+</span><span class="w">      </span><span class="k">port</span><span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
+</span><span class="w">      </span><span class="k">targetPort</span><span class="p">:</span><span class="w"> </span><span class="m">8443</span><span class="w">
+</span><span class="w">  </span><span class="k">selector</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span><span class="k">k8s-app</span><span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
+</span><span class="w">  </span><span class="k">type</span><span class="p">:</span><span class="w"> </span>ClusterIP<span class="w">
+</span><span class="w">  </span><span class="k">sessionAffinity</span><span class="p">:</span><span class="w"> </span>None<span class="w">
 </span></code></pre></td></tr></table>
 </div>
 </div><p><strong>2、创建存储 TLS 数字证书的 Secret</strong></p>
@@ -873,28 +872,28 @@ kubectl apply -f service-nodeport.yaml
 </span><span class="lnt">22
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-yaml" data-lang="yaml">kind<span class="p">:</span><span class="w"> </span>Ingress<span class="w">
-</span><span class="w"></span>apiVersion<span class="p">:</span><span class="w"> </span>extensions/v1beta1<span class="w">
-</span><span class="w"></span>metadata<span class="p">:</span><span class="w">
-</span><span class="w">  </span>name<span class="p">:</span><span class="w"> </span>dashboard-ingress<span class="w">
-</span><span class="w">  </span>namespace<span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
-</span><span class="w">  </span>annotations<span class="p">:</span><span class="w">
-</span><span class="w">    </span>nginx.ingress.kubernetes.io/backend-protocol<span class="p">:</span><span class="w"> </span>HTTPS<span class="w">
-</span><span class="w">    </span>nginx.ingress.kubernetes.io/rewrite-target<span class="p">:</span><span class="w"> </span>/$<span class="m">2</span><span class="w">
-</span><span class="w">    </span>nginx.ingress.kubernetes.io/use-regex<span class="p">:</span><span class="w"> </span><span class="s1">&#39;true&#39;</span><span class="w">
-</span><span class="w"></span>spec<span class="p">:</span><span class="w">
-</span><span class="w">  </span>tls<span class="p">:</span><span class="w">
-</span><span class="w">    </span>-<span class="w"> </span>hosts<span class="p">:</span><span class="w">
-</span><span class="w">        </span>-<span class="w"> </span>www.yourdomain.com<span class="w">
-</span><span class="w">      </span>secretName<span class="p">:</span><span class="w"> </span>www.yourdomain.com<span class="w">
-</span><span class="w">  </span>rules<span class="p">:</span><span class="w">
-</span><span class="w">    </span>-<span class="w"> </span>host<span class="p">:</span><span class="w"> </span>www.yourdomain.com<span class="w">
-</span><span class="w">      </span>http<span class="p">:</span><span class="w">
-</span><span class="w">        </span>paths<span class="p">:</span><span class="w">
-</span><span class="w">          </span>-<span class="w"> </span>path<span class="p">:</span><span class="w"> </span>/kube(/|$)(.<span class="cp">*)</span><span class="w">
-</span><span class="w">            </span>backend<span class="p">:</span><span class="w">
-</span><span class="w">              </span>serviceName<span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
-</span><span class="w">              </span>servicePort<span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
+<pre class="chroma"><code class="language-yaml" data-lang="yaml"><span class="k">kind</span><span class="p">:</span><span class="w"> </span>Ingress<span class="w">
+</span><span class="w"></span><span class="k">apiVersion</span><span class="p">:</span><span class="w"> </span>extensions/v1beta1<span class="w">
+</span><span class="w"></span><span class="k">metadata</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">  </span><span class="k">name</span><span class="p">:</span><span class="w"> </span>dashboard-ingress<span class="w">
+</span><span class="w">  </span><span class="k">namespace</span><span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
+</span><span class="w">  </span><span class="k">annotations</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span><span class="k">nginx.ingress.kubernetes.io/backend-protocol</span><span class="p">:</span><span class="w"> </span>HTTPS<span class="w">
+</span><span class="w">    </span><span class="k">nginx.ingress.kubernetes.io/rewrite-target</span><span class="p">:</span><span class="w"> </span>/$<span class="m">2</span><span class="w">
+</span><span class="w">    </span><span class="k">nginx.ingress.kubernetes.io/use-regex</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;true&#39;</span><span class="w">
+</span><span class="w"></span><span class="k">spec</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">  </span><span class="k">tls</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span>- <span class="k">hosts</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">        </span>- www.yourdomain.com<span class="w">
+</span><span class="w">      </span><span class="k">secretName</span><span class="p">:</span><span class="w"> </span>www.yourdomain.com<span class="w">
+</span><span class="w">  </span><span class="k">rules</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">    </span>- <span class="k">host</span><span class="p">:</span><span class="w"> </span>www.yourdomain.com<span class="w">
+</span><span class="w">      </span><span class="k">http</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">        </span><span class="k">paths</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">          </span>- <span class="k">path</span><span class="p">:</span><span class="w"> </span>/kube(/|$)(.<span class="cp">*)</span><span class="w">
+</span><span class="w">            </span><span class="k">backend</span><span class="p">:</span><span class="w">
+</span><span class="w"></span><span class="w">              </span><span class="k">serviceName</span><span class="p">:</span><span class="w"> </span>kubernetes-dashboard<span class="w">
+</span><span class="w">              </span><span class="k">servicePort</span><span class="p">:</span><span class="w"> </span><span class="m">443</span><span class="w">
 </span></code></pre></td></tr></table>
 </div>
 </div><p>浏览器访问 <a href="https://www.yourdomain.com/kube/">https://www.yourdomain.com/kube/</a>，输入登陆信息，即可正常使用 Kubernetes Dashboard 。</p>
