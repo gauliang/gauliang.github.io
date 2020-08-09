@@ -4,21 +4,46 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-01-22T16:32:22+08:00</lastmod>
+    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/docker/</loc>
-    <lastmod>2020-01-22T16:32:22+08:00</lastmod>
+    <loc>https://gauliang.github.io/tags/cloudnative/</loc>
+    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/</loc>
-    <lastmod>2020-01-22T16:32:22+08:00</lastmod>
+    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/istioctl/</loc>
+    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/kubectl/</loc>
+    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/linux/</loc>
+    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/kubectl-and-istio/</loc>
+    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/docker/</loc>
     <lastmod>2020-01-22T16:32:22+08:00</lastmod>
   </url>
   
@@ -29,11 +54,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/handbook/</loc>
-    <lastmod>2020-01-21T23:20:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/linux/</loc>
     <lastmod>2020-01-21T23:20:31+08:00</lastmod>
   </url>
   

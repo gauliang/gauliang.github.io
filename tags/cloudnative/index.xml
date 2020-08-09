@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Gauliang</title>
-    <link>https://gauliang.github.io/tags/linux/</link>
-    <description>Recent content in linux on Gauliang</description>
+    <title>cloudnative on Gauliang</title>
+    <link>https://gauliang.github.io/tags/cloudnative/</link>
+    <description>Recent content in cloudnative on Gauliang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
     <lastBuildDate>Sun, 09 Aug 2020 11:13:31 +0800</lastBuildDate>
     
-	<atom:link href="https://gauliang.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gauliang.github.io/tags/cloudnative/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -23,23 +23,6 @@
 1 2 3  brew install kubectl # 测试 kubectl version --client   2. 配置 kubectl 自动补全 kubectl 为 bash 和 zsh 提供自动补全能力。kubectl completion bash 命令可生成 Bash 的自动补全脚本，该脚本基于 bash-completion，需要线安装该软件。
 Linux 系统
 1 2 3 4  # 该命令会创建 `/usr/share/bash-completion/bash_completion` sudo apt install bash-completion # 启用kubectl自动补全 echo &amp;#39;source &amp;lt;(kubectl completion bash)&amp;#39; &amp;gt;&amp;gt;~/.</description>
-    </item>
-    
-    <item>
-      <title>ubuntu 常用操作指南</title>
-      <link>https://gauliang.github.io/blog/2020/ubuntu-handbook/</link>
-      <pubDate>Tue, 21 Jan 2020 23:20:31 +0800</pubDate>
-      
-      <guid>https://gauliang.github.io/blog/2020/ubuntu-handbook/</guid>
-      <description>1. 移除桌面图标显示
-1  sudo apt remove gnome-shell-extension-desktop-icons   2. 移除桌面边栏菜单
-1  sudo apt remove gnome-shell-extension-ubuntu-dock   3. 双显示器
-桌面空间切换时，默认仅切换主显示器，如需同步切换，执行该操作。
-1 2  sudo apt install gnome-tweaks gnome-tweaks   启动 gnome-tweaks 进入 Workspaces 菜单，Display Handling 选项选择 Workspaces span displays
-4. 自动隐藏桌面顶部状态栏
-安装 GNOME Shell Extension Hide Top Bar
-5. 安装 Nodejs
-参考 https://github.com/nodejs/help/wiki/Installation 下载二进制文件完成安装。</description>
     </item>
     
   </channel>
