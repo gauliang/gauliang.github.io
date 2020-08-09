@@ -21,20 +21,11 @@
     </item>
     
     <item>
-      <title>istioctl</title>
-      <link>https://gauliang.github.io/tags/istioctl/</link>
+      <title>kubernetes</title>
+      <link>https://gauliang.github.io/tags/kubernetes/</link>
       <pubDate>Sun, 09 Aug 2020 11:13:31 +0800</pubDate>
       
-      <guid>https://gauliang.github.io/tags/istioctl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>kubectl</title>
-      <link>https://gauliang.github.io/tags/kubectl/</link>
-      <pubDate>Sun, 09 Aug 2020 11:13:31 +0800</pubDate>
-      
-      <guid>https://gauliang.github.io/tags/kubectl/</guid>
+      <guid>https://gauliang.github.io/tags/kubernetes/</guid>
       <description></description>
     </item>
     
@@ -44,6 +35,15 @@
       <pubDate>Sun, 09 Aug 2020 11:13:31 +0800</pubDate>
       
       <guid>https://gauliang.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>service-mesh</title>
+      <link>https://gauliang.github.io/tags/service-mesh/</link>
+      <pubDate>Sun, 09 Aug 2020 11:13:31 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/service-mesh/</guid>
       <description></description>
     </item>
     
@@ -120,15 +120,6 @@
     </item>
     
     <item>
-      <title>kubernetes</title>
-      <link>https://gauliang.github.io/tags/kubernetes/</link>
-      <pubDate>Sun, 19 Jan 2020 20:30:54 +0800</pubDate>
-      
-      <guid>https://gauliang.github.io/tags/kubernetes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>api-getway</title>
       <link>https://gauliang.github.io/tags/api-getway/</link>
       <pubDate>Sat, 11 Jan 2020 15:28:13 +0800</pubDate>
@@ -143,15 +134,6 @@
       <pubDate>Sat, 11 Jan 2020 15:28:13 +0800</pubDate>
       
       <guid>https://gauliang.github.io/tags/krakend/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>service-mesh</title>
-      <link>https://gauliang.github.io/tags/service-mesh/</link>
-      <pubDate>Sat, 11 Jan 2020 15:28:13 +0800</pubDate>
-      
-      <guid>https://gauliang.github.io/tags/service-mesh/</guid>
       <description></description>
     </item>
     
