@@ -4,16 +4,46 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
+    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/cloudnative/</loc>
-    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
+    <loc>https://gauliang.github.io/tags/devops/</loc>
+    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/series/gitlab/</loc>
+    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/gitlab/</loc>
+    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/gitlab-ce-work-flow/</loc>
+    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/series/</loc>
+    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/cloudnative/</loc>
     <lastmod>2020-08-09T11:13:31+08:00</lastmod>
   </url>
   
@@ -29,11 +59,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/service-mesh/</loc>
-    <lastmod>2020-08-09T11:13:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/</loc>
     <lastmod>2020-08-09T11:13:31+08:00</lastmod>
   </url>
   
@@ -54,21 +79,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/handbook/</loc>
-    <lastmod>2020-01-21T23:20:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/ubuntu/</loc>
-    <lastmod>2020-01-21T23:20:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/blog/2020/ubuntu-handbook/</loc>
-    <lastmod>2020-01-21T23:20:31+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/gitlab/</loc>
     <lastmod>2020-01-21T22:44:48+08:00</lastmod>
   </url>
   
@@ -123,7 +133,13 @@
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/series/</loc>
+    <loc>https://gauliang.github.io/tags/ubuntu/</loc>
+    <lastmod>2019-12-21T23:20:31+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/ubuntu-handbook/</loc>
+    <lastmod>2019-12-21T23:20:31+08:00</lastmod>
   </url>
   
 </urlset>
