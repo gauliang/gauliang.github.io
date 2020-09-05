@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CommonJS on Gauliang</title>
+    <link>https://gauliang.github.io/tags/commonjs/</link>
+    <description>Recent content in CommonJS on Gauliang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 05 Sep 2020 16:04:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://gauliang.github.io/tags/commonjs/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>简述 Javascript 模块化规范</title>
+      <link>https://gauliang.github.io/blog/2020/what-are-cjs-amd-umd-and-esm-in-javascript/</link>
+      <pubDate>Sat, 05 Sep 2020 16:04:37 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/blog/2020/what-are-cjs-amd-umd-and-esm-in-javascript/</guid>
+      <description>ESM 具有语法简单、异步等特性。UMD 随处可见，通常在不支持 ESM 的环境中作为备用。CJS是同步的，适合后端。AMD是异步的，适合前端。
+CommonJS CommonJS 由 Node.js 实现，同步导入模块CJS，主要用于服务器端，无法在浏览器中直接运行。 导入 CJS 时，它将为你提供导入对象的副本。不支持 Tree-shaking，因为在导入时会得到一个对象。 循环依赖管理不善。
+1 2 3 4 5 6 7  //importing const doSomething = require(&amp;#39;./doSomething.js&amp;#39;); //exporting module.exports = function doSomething(n) { // do something }   AMD AMD —— 异步模块定义，由 RequireJS 实现，可在浏览器直接使用，语法相对复杂。
+1 2 3 4 5 6 7 8 9 10 11 12 13  define([&amp;#39;dep1&amp;#39;, &amp;#39;dep2&amp;#39;], function (dep1, dep2) { //Define the module value by returning a value.</description>
+    </item>
+    
+  </channel>
+</rss>
