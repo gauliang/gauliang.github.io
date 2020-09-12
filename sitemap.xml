@@ -4,7 +4,42 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-09-06T10:19:40+08:00</lastmod>
+    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/es-modules/</loc>
+    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/esm/</loc>
+    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/java/</loc>
+    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/javascript/</loc>
+    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/node.js/</loc>
+    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
   </url>
   
   <url>
@@ -18,47 +53,17 @@
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/</loc>
-    <lastmod>2020-09-06T10:19:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/java/</loc>
-    <lastmod>2020-09-06T10:19:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/javascript/</loc>
-    <lastmod>2020-09-06T10:19:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/node.js/</loc>
-    <lastmod>2020-09-06T10:19:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/</loc>
-    <lastmod>2020-09-06T10:19:40+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gauliang.github.io/tags/amd/</loc>
     <lastmod>2020-09-05T16:04:37+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/esm/</loc>
+    <loc>https://gauliang.github.io/blog/2020/what-are-cjs-amd-umd-and-esm-in-javascript/</loc>
     <lastmod>2020-09-05T16:04:37+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/tags/umd/</loc>
-    <lastmod>2020-09-05T16:04:37+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/blog/2020/what-are-cjs-amd-umd-and-esm-in-javascript/</loc>
     <lastmod>2020-09-05T16:04:37+08:00</lastmod>
   </url>
   
