@@ -4,7 +4,17 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
+    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/promise/</loc>
+    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
   </url>
   
   <url>
@@ -14,11 +24,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/esm/</loc>
-    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/</loc>
     <lastmod>2020-09-07T17:14:01+08:00</lastmod>
   </url>
   

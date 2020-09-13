@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="/vendor/themify-icons/themify-icons.css">
 
 
-<link rel="stylesheet" href="https://gauliang.github.io/scss/main.min.47825b5c39d90bacb927fb3c81348ce8e80268860e37f853c42193e3108f75fd.css"><body data-spy="scroll" data-target="#table-of-contents"><header class="navigation" id="navigation">
+<link rel="stylesheet" href="https://gauliang.github.io/scss/main.min.b68e52dcaa941d22f54a965769fcb5c94ccd201e15400efce8714c5b4ade4f07.css"><body data-spy="scroll" data-target="#table-of-contents"><header class="navigation" id="navigation">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="/">
@@ -73,7 +73,8 @@
     <li><a class="nav-link"  href="#一export-语法">一、export 语法</a></li>
     <li><a class="nav-link"  href="#二import-语法">二、import 语法</a></li>
     <li><a class="nav-link"  href="#三只读视图">三、只读视图</a></li>
-    <li><a class="nav-link"  href="#四动态加载">四、动态加载</a></li>
+    <li><a class="nav-link"  href="#四动态加载">四、动态加载</a>
+    </li>
     <li><a class="nav-link"  href="#五在浏览器中使用">五、在浏览器中使用</a></li>
   </ul>
 </nav>
@@ -87,7 +88,8 @@
             <article id="post-content">
 
                 
-                <p>ES6 中首次内置了对模块的支持。从理论上讲，ECMAScript模块应该在所有JavaScript环境中通用。实际上，浏览器仍然是ES模块的主要目标。</p>
+                <p>ES6 中首次内置了对模块的支持。从理论上讲，ECMAScript 模块应该在所有 JavaScript 环境中通用。实际上，浏览器仍然是ES模块的主要目标。
+默认情况下，模块具有<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">严格模式</a>。</p>
 <h2 id="一export-语法">一、export 语法</h2>
 <ol>
 <li>可以在实体前使用 <code>export</code> 关键字实现导出，也可以通过 <code>export</code> 语句导出；</li>
@@ -273,7 +275,10 @@
     <span class="p">})</span>
 </code></pre></td></tr></table>
 </div>
-</div><h2 id="五在浏览器中使用">五、在浏览器中使用</h2>
+</div><h3 id="importmeta">import.meta</h3>
+<p>另一个与模块相关的新功能是import.meta，它提供有关当前模块的元数据。您获得的确切元数据不在 ECMAScript 规范中，取决于主机环境。
+例如，在浏览器中，您可能会获得与 Node.js 不同的元数据。</p>
+<h2 id="五在浏览器中使用">五、在浏览器中使用</h2>
 <p>现代浏览器支持 ES 模块，但有一些警告。要加载模块，需添将 <code>script</code> 标签的 <code>type</code> 属性设置为 <code>module</code>：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -356,6 +361,14 @@
                     </div>
                 </a>
                 
+                
+                <a href="https://gauliang.github.io/blog/2020/promise/" class="next-post">
+                    <div class="text">
+                        <div class="caption">2020-09-13 20:00:24</div>
+                        <div class="title">Promise</div>
+                    </div>
+                    <i class="icon ti-arrow-right"></i>
+                </a>
                 
             </div>
 
