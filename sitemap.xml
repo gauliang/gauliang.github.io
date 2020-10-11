@@ -3,18 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://gauliang.github.io/tags/bfc/</loc>
+    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/block-formatting-context/</loc>
+    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
+    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/css/</loc>
+    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/</loc>
-    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
+    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/java/</loc>
-    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
+    <loc>https://gauliang.github.io/tags/layout/</loc>
+    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
   </url>
   
   <url>
@@ -34,11 +54,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/promise/</loc>
-    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/</loc>
     <lastmod>2020-09-13T20:00:24+08:00</lastmod>
   </url>
   
@@ -165,6 +180,11 @@
   <url>
     <loc>https://gauliang.github.io/blog/2020/reset-password/</loc>
     <lastmod>2020-01-21T22:44:48+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/java/</loc>
+    <lastmod>2020-01-21T00:20:08+08:00</lastmod>
   </url>
   
   <url>
