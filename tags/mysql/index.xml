@@ -17,9 +17,7 @@
       <pubDate>Tue, 21 Jan 2020 22:44:48 +0800</pubDate>
       
       <guid>https://gauliang.github.io/blog/2020/reset-password/</guid>
-      <description>1、MySql 5.7 本节介绍如何重置 MySql 5.7 系统 root 用户密码。
-首选，以安全模式登录
-1 2 3 4 5 6 7 8 9 10 11 12 13 14  # Stop MySQL sudo service mysql stop # Make MySQL service directory. sudo mkdir -p /var/run/mysqld # Give MySQL user permission to write to the service directory. sudo chown mysql:mysql /var/run/mysqld # Start MySQL manually, without permission checks or networking. sudo mysqld_safe --skip-grant-tables &amp;amp; # Log in without a password.</description>
+      <description>1、MySql 5.7 本节介绍如何重置 MySql 5.7 系统 root 用户密码。 首选，以安全模式登录 1 2 3 4 5 6 7 8 9 10 11 12 13 14 # Stop MySQL sudo service mysql stop # Make MySQL service directory. sudo mkdir -p /var/run/mysqld # Give MySQL user</description>
     </item>
     
   </channel>

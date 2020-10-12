@@ -17,9 +17,7 @@
       <pubDate>Tue, 21 Jan 2020 22:44:48 +0800</pubDate>
       
       <guid>https://gauliang.github.io/blog/2020/reset-password/</guid>
-      <description>1、MySql 5.7 本节介绍如何重置 MySql 5.7 系统 root 用户密码。
-首选，以安全模式登录
-1 2 3 4 5 6 7 8 9 10 11 12 13 14  # Stop MySQL sudo service mysql stop # Make MySQL service directory. sudo mkdir -p /var/run/mysqld # Give MySQL user permission to write to the service directory. sudo chown mysql:mysql /var/run/mysqld # Start MySQL manually, without permission checks or networking. sudo mysqld_safe --skip-grant-tables &amp;amp; # Log in without a password.</description>
+      <description>1、MySql 5.7 本节介绍如何重置 MySql 5.7 系统 root 用户密码。 首选，以安全模式登录 1 2 3 4 5 6 7 8 9 10 11 12 13 14 # Stop MySQL sudo service mysql stop # Make MySQL service directory. sudo mkdir -p /var/run/mysqld # Give MySQL user</description>
     </item>
     
     <item>
@@ -28,9 +26,7 @@
       <pubDate>Sat, 21 Dec 2019 23:20:31 +0800</pubDate>
       
       <guid>https://gauliang.github.io/blog/2020/ubuntu-handbook/</guid>
-      <description>一、基本系统设置 1 2 3 4 5 6  # 1. 移除桌面图标显示 sudo apt remove gnome-shell-extension-desktop-icons # 2. 移除桌面边栏菜单 sudo apt remove gnome-shell-extension-ubuntu-dock   当前系统链接多个显示器，在桌面空间切换时，默认仅切换主显示器，如需同步切换，可通过安装 gnome-tweaks 软件 ，在 Workspaces 菜单下 Display Handling 项选择 Workspaces span displays 即可。
-1 2  sudo apt install gnome-tweaks gnome-tweaks   安装 GNOME Shell Extension Hide Top Bar 可配置自动隐藏桌面顶部状态栏。
-二、开发环境配置 1. 安装 Nodejs 参考 https://github.com/nodejs/help/wiki/Installation 下载二进制文件完成安装。</description>
+      <description>一、基本系统设置 1 2 3 4 5 6 # 1. 移除桌面图标显示 sudo apt remove gnome-shell-extension-desktop-icons # 2. 移除桌面边栏菜单 sudo apt remove gnome-shell-extension-ubuntu-dock 当前系统链接多个显示器，在桌面空间切换时，默认仅切换主显</description>
     </item>
     
   </channel>

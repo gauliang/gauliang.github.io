@@ -18,12 +18,27 @@
   </url>
   
   <url>
+    <loc>https://gauliang.github.io/tags/java/</loc>
+    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/javascript/</loc>
+    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gauliang.github.io/blog/2020/javascript-closure/</loc>
     <lastmod>2020-10-11T18:45:55+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/tags/lexical-environment/</loc>
+    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/node.js/</loc>
     <lastmod>2020-10-11T18:45:55+08:00</lastmod>
   </url>
   
@@ -58,17 +73,7 @@
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/javascript/</loc>
-    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gauliang.github.io/blog/2020/promise/</loc>
-    <lastmod>2020-09-13T20:00:24+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/node.js/</loc>
     <lastmod>2020-09-13T20:00:24+08:00</lastmod>
   </url>
   
@@ -200,11 +205,6 @@
   <url>
     <loc>https://gauliang.github.io/blog/2020/reset-password/</loc>
     <lastmod>2020-01-21T22:44:48+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/java/</loc>
-    <lastmod>2020-01-21T00:20:08+08:00</lastmod>
   </url>
   
   <url>
