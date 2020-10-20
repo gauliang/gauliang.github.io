@@ -83,6 +83,26 @@
   </url>
   
   <url>
+    <loc>https://gauliang.github.io/tags/devops/</loc>
+    <lastmod>2020-09-13T09:39:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/git/</loc>
+    <lastmod>2020-09-13T09:39:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/git-rebase/</loc>
+    <lastmod>2020-09-13T09:39:21+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/rebase/</loc>
+    <lastmod>2020-09-13T09:39:21+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gauliang.github.io/blog/2020/es-modules/</loc>
     <lastmod>2020-09-07T17:14:01+08:00</lastmod>
   </url>
@@ -130,11 +150,6 @@
   <url>
     <loc>https://gauliang.github.io/blog/2020/javascript-arrow-function-best-practices/</loc>
     <lastmod>2020-09-05T10:51:40+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/devops/</loc>
-    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
   </url>
   
   <url>
