@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="/vendor/themify-icons/themify-icons.css">
 
 
-<link rel="stylesheet" href="https://gauliang.github.io/scss/main.min.e232c6f085a4a88ff2953febbddc1aea1ffb8c73b94da47add58f5b73a1b11f8.css"><body data-spy="scroll" data-target="#table-of-contents"><header class="navigation" id="navigation">
+<link rel="stylesheet" href="https://gauliang.github.io/scss/main.min.bb4152270fbc4064c66a0d581497d9d6823a0b39591d79d2cf0eb9df9b57a327.css"><body data-spy="scroll" data-target="#table-of-contents"><header class="navigation" id="navigation">
     <div class="container">
         <nav class="navbar navbar-expand-lg">
             <a class="navbar-brand" href="/">
@@ -94,22 +94,22 @@
 
                 
                 <figure class="image-widget">
-    <img src="../creating-single-control-plane-cluster-with-kubeadm.files/cover.png" alt="部署单控制平面 k8s 集群，并安装 Dashboard 和 ingress-nginx 使外部浏览器可以访问集群。">
+    <a href="../creating-single-control-plane-cluster-with-kubeadm.files/cover.png" target="_blank"><img src="../creating-single-control-plane-cluster-with-kubeadm.files/cover.png" alt="部署单控制平面 k8s 集群，并安装 Dashboard 和 ingress-nginx 使外部浏览器可以访问集群。"></a>
     <figcaption>部署单控制平面 k8s 集群，并安装 Dashboard 和 ingress-nginx 使外部浏览器可以访问集群。</figcaption>
 </figure>
 <h2 id="一拓扑结构">一、拓扑结构</h2>
 <p>本文主要介绍如何使用 kubeadm 安装部署单控制平面 Kubernetes v1.17.0 集群，所谓单控制平面，顾名思义就是由一个 Control-plane Node 和多个 Work Node 组成的 Kubernetes 集群。高可用集群与此不同，其由多个 Control-plane Node 和多个 Work Node 组成，高可用集群部署中，根据 etcd 数据库部署位置的不同，又分为栈内 etcd 数据库部署和外部独立 etcd 数据库集群部署两种模式。
 下面展示了不同部署模式的拓扑结构：</p>
 <figure class="image-widget">
-    <img src="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-scp-topology.svg" alt="单控制平面拓扑结构">
+    <a href="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-scp-topology.svg" target="_blank"><img src="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-scp-topology.svg" alt="单控制平面拓扑结构"></a>
     <figcaption>单控制平面拓扑结构</figcaption>
 </figure>
 <figure class="image-widget">
-    <img src="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-ha-topology-stacked-etcd.svg" alt="高可用拓扑结构（栈内 etcd 数据库）">
+    <a href="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-ha-topology-stacked-etcd.svg" target="_blank"><img src="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-ha-topology-stacked-etcd.svg" alt="高可用拓扑结构（栈内 etcd 数据库）"></a>
     <figcaption>高可用拓扑结构（栈内 etcd 数据库）</figcaption>
 </figure>
 <figure class="image-widget">
-    <img src="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-ha-topology-external-etcd.svg" alt="高可用拓扑结构（外部独立 etcd 数据库集群）">
+    <a href="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-ha-topology-external-etcd.svg" target="_blank"><img src="../creating-single-control-plane-cluster-with-kubeadm.files/kubeadm-ha-topology-external-etcd.svg" alt="高可用拓扑结构（外部独立 etcd 数据库集群）"></a>
     <figcaption>高可用拓扑结构（外部独立 etcd 数据库集群）</figcaption>
 </figure>
 <p>高可用部署与单控制平面部署不同，不过，除负载均衡及多 kube-apiserver 部分外，其他流程大同小异。有关高可用安装的更多信息请参考 <a href="https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/high-availability/">Creating Highly Available clusters with kubeadm</a>。</p>

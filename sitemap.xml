@@ -4,16 +4,41 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
+    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/closure/</loc>
-    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
+    <loc>https://gauliang.github.io/tags/css/</loc>
+    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/flex/</loc>
+    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/layout/</loc>
+    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/flex-layout/</loc>
+    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/closure/</loc>
     <lastmod>2020-10-11T18:45:55+08:00</lastmod>
   </url>
   
@@ -43,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/</loc>
-    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gauliang.github.io/tags/%E9%97%AD%E5%8C%85/</loc>
     <lastmod>2020-10-11T18:45:55+08:00</lastmod>
   </url>
@@ -59,16 +79,6 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/2020/block-formatting-context/</loc>
-    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/css/</loc>
-    <lastmod>2020-10-10T17:03:29+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/layout/</loc>
     <lastmod>2020-10-10T17:03:29+08:00</lastmod>
   </url>
   
