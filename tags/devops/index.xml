@@ -6,10 +6,19 @@
     <description>Recent content in devops on Gauliang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 13 Sep 2020 09:39:21 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2020 08:34:50 +0800</lastBuildDate>
     
 	<atom:link href="https://gauliang.github.io/tags/devops/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>深入 Webpack</title>
+      <link>https://gauliang.github.io/blog/2020/dive-into-webpack/</link>
+      <pubDate>Thu, 05 Nov 2020 08:34:50 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/blog/2020/dive-into-webpack/</guid>
+      <description>前端生态蓬勃发展，各垂直领域都有众多设计精良的优秀项目，几乎在所有场景中，应用系统都不同程度依赖这些三方项目。 同时，新的设计理念不断被提出并</description>
+    </item>
     
     <item>
       <title>Git Rebase</title>

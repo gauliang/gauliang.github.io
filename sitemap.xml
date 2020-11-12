@@ -8,12 +8,27 @@
   </url>
   
   <url>
+    <loc>https://gauliang.github.io/tags/devops/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gauliang.github.io/series/dive-into-webpack/</loc>
     <lastmod>2020-11-05T08:34:50+08:00</lastmod>
   </url>
   
   <url>
+    <loc>https://gauliang.github.io/tags/esm/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/node.js/</loc>
     <lastmod>2020-11-05T08:34:50+08:00</lastmod>
   </url>
   
@@ -83,11 +98,6 @@
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/node.js/</loc>
-    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gauliang.github.io/tags/%E9%97%AD%E5%8C%85/</loc>
     <lastmod>2020-10-11T18:45:55+08:00</lastmod>
   </url>
@@ -113,11 +123,6 @@
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/devops/</loc>
-    <lastmod>2020-09-13T09:39:21+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gauliang.github.io/tags/git/</loc>
     <lastmod>2020-09-13T09:39:21+08:00</lastmod>
   </url>
@@ -134,11 +139,6 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/2020/es-modules/</loc>
-    <lastmod>2020-09-07T17:14:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/esm/</loc>
     <lastmod>2020-09-07T17:14:01+08:00</lastmod>
   </url>
   
