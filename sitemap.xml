@@ -4,7 +4,37 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/series/dive-into-webpack/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/series/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/webpack/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/dive-into-webpack/</loc>
+    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
   </url>
   
   <url>
@@ -18,17 +48,7 @@
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/</loc>
-    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://gauliang.github.io/tags/layout/</loc>
-    <lastmod>2020-10-25T16:06:20+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/</loc>
     <lastmod>2020-10-25T16:06:20+08:00</lastmod>
   </url>
   
@@ -174,11 +194,6 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/2020/gitlab-ce-work-flow/</loc>
-    <lastmod>2020-08-29T08:09:15+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/series/</loc>
     <lastmod>2020-08-29T08:09:15+08:00</lastmod>
   </url>
   
