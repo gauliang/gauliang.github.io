@@ -18,7 +18,12 @@
   </url>
   
   <url>
-    <loc>https://gauliang.github.io/tags/js/</loc>
+    <loc>https://gauliang.github.io/tags/java/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/javascript/</loc>
     <lastmod>2020-11-15T08:24:14+08:00</lastmod>
   </url>
   
@@ -104,16 +109,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/closure/</loc>
-    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/java/</loc>
-    <lastmod>2020-10-11T18:45:55+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/javascript/</loc>
     <lastmod>2020-10-11T18:45:55+08:00</lastmod>
   </url>
   
