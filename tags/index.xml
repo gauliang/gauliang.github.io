@@ -6,10 +6,55 @@
     <description>Recent content in Tags on Gauliang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 05 Nov 2020 08:34:50 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2020 08:24:14 +0800</lastBuildDate>
     
 	<atom:link href="https://gauliang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>flux</title>
+      <link>https://gauliang.github.io/tags/flux/</link>
+      <pubDate>Sun, 15 Nov 2020 08:24:14 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/flux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>js</title>
+      <link>https://gauliang.github.io/tags/js/</link>
+      <pubDate>Sun, 15 Nov 2020 08:24:14 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>node.js</title>
+      <link>https://gauliang.github.io/tags/node.js/</link>
+      <pubDate>Sun, 15 Nov 2020 08:24:14 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react</title>
+      <link>https://gauliang.github.io/tags/react/</link>
+      <pubDate>Sun, 15 Nov 2020 08:24:14 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>redux</title>
+      <link>https://gauliang.github.io/tags/redux/</link>
+      <pubDate>Sun, 15 Nov 2020 08:24:14 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/tags/redux/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>devops</title>
@@ -26,15 +71,6 @@
       <pubDate>Thu, 05 Nov 2020 08:34:50 +0800</pubDate>
       
       <guid>https://gauliang.github.io/tags/esm/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>node.js</title>
-      <link>https://gauliang.github.io/tags/node.js/</link>
-      <pubDate>Thu, 05 Nov 2020 08:34:50 +0800</pubDate>
-      
-      <guid>https://gauliang.github.io/tags/node.js/</guid>
       <description></description>
     </item>
     

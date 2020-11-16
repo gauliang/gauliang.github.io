@@ -6,10 +6,19 @@
     <description>Recent content on Gauliang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Thu, 05 Nov 2020 08:34:50 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2020 08:24:14 +0800</lastBuildDate>
     
 	<atom:link href="https://gauliang.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>深入 React Redux</title>
+      <link>https://gauliang.github.io/blog/2020/dive-react-redux/</link>
+      <pubDate>Sun, 15 Nov 2020 08:24:14 +0800</pubDate>
+      
+      <guid>https://gauliang.github.io/blog/2020/dive-react-redux/</guid>
+      <description>要谈论 react-redux 我们得先从了解 flux 和 redux 开始，flux 本身是一种架构模式，redux 是一个面向 JS 的通用状态管理器。 Redux 是基于的 flux 的架构实现，react-r</description>
+    </item>
     
     <item>
       <title>深入 Webpack</title>

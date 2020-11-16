@@ -4,7 +4,57 @@
   
   <url>
     <loc>https://gauliang.github.io/blog/</loc>
-    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/flux/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/js/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/node.js/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/react/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/series/react/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/redux/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/series/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/tags/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gauliang.github.io/blog/2020/dive-react-redux/</loc>
+    <lastmod>2020-11-15T08:24:14+08:00</lastmod>
   </url>
   
   <url>
@@ -19,26 +69,6 @@
   
   <url>
     <loc>https://gauliang.github.io/tags/esm/</loc>
-    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/</loc>
-    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/node.js/</loc>
-    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/series/</loc>
-    <lastmod>2020-11-05T08:34:50+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gauliang.github.io/tags/</loc>
     <lastmod>2020-11-05T08:34:50+08:00</lastmod>
   </url>
   
