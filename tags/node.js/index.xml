@@ -48,15 +48,6 @@
     </item>
     
     <item>
-      <title>ECMAScript Modules</title>
-      <link>https://gauliang.github.io/blog/2020/es-modules/</link>
-      <pubDate>Mon, 07 Sep 2020 17:14:01 +0800</pubDate>
-      
-      <guid>https://gauliang.github.io/blog/2020/es-modules/</guid>
-      <description>ES6 中首次内置了对模块的支持。从理论上讲，ECMAScript 模块应该在所有 JavaScript 环境中通用。实际上，浏览器仍然是ES模块的主要目标。 默认情况下，</description>
-    </item>
-    
-    <item>
       <title>CommonJS Modules</title>
       <link>https://gauliang.github.io/blog/2020/commonjs-modules/</link>
       <pubDate>Sun, 06 Sep 2020 10:19:40 +0800</pubDate>
