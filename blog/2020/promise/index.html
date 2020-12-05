@@ -73,6 +73,7 @@
     <li><a class="nav-link"  href="#概述">概述</a></li>
     <li><a class="nav-link"  href="#链试调用">链试调用</a></li>
     <li><a class="nav-link"  href="#错误处理">错误处理</a></li>
+    <li><a class="nav-link"  href="#错误处理的链式调用">错误处理的链式调用</a></li>
     <li><a class="nav-link"  href="#promise-api">Promise API</a></li>
   </ul>
 </nav>
@@ -81,7 +82,7 @@
         <div class="col-xl-8 col-lg-9 post-content">
             <div class="post-meta-count">
                 <i class="ti-info-alt"></i>
-                <strong>阅读全文约需 7 分钟</strong>
+                <strong>阅读全文约需 9 分钟</strong>
             </div>
             <article id="post-content">
 
@@ -186,7 +187,7 @@ Promise 有点类似于事件侦听器，但有以下两点区别：</p>
 </code></pre></td></tr></table>
 </div>
 </div><h2 id="错误处理">错误处理</h2>
-<p><code>then()</code> 包含两个参数：一个用于成功，一个用于失败：</p>
+<p>Promise 会自动捕获内部异常，并交给 rejected 响应函数处理。<code>then()</code> 包含两个参数：一个用于成功，一个用于失败：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre class="chroma"><code><span class="lnt">1
@@ -217,6 +218,74 @@ Promise 有点类似于事件侦听器，但有以下两点区别：</p>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Success!&#34;</span><span class="p">,</span> <span class="nx">response</span><span class="p">);</span>
 <span class="p">}).</span><span class="k">catch</span><span class="p">(</span><span class="kd">function</span><span class="p">(</span><span class="nx">error</span><span class="p">)</span> <span class="p">{</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;Failed!&#34;</span><span class="p">,</span> <span class="nx">error</span><span class="p">);</span>
+<span class="p">})</span>
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="错误处理的链式调用">错误处理的链式调用</h2>
+<ol>
+<li>一旦发生错误，后续所有 <code>then() 方法的 resolve 回调</code> 将都不会执行，直至遇到 <code>catch()</code> 或 <code>then() 方法的 reject 回调</code>;</li>
+<li>错误一经处理，将返回成功的 Promise，后续链时调用的 <code>then()</code> 会正常执行；</li>
+<li>所以，如果在 <code>catch()</code> 之前的 <code>then()</code> 方法中通过 <code>reject</code> 回调处理了异常，后面的 <code>catch()</code> 将不会执行;</li>
+</ol>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-js" data-lang="js"><span class="kr">const</span> <span class="nx">work</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Promise</span><span class="p">((</span><span class="nx">resolve</span><span class="p">)</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;11&#39;</span><span class="p">)</span>
+    <span class="nx">resolve</span><span class="p">(</span><span class="s1">&#39;resolve-1&#39;</span><span class="p">)</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;22&#39;</span><span class="p">)</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">data</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span>
+    <span class="c1">// 抛出异常
+</span><span class="c1"></span>    <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s1">&#39;Custom error message.&#39;</span><span class="p">)</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// 由于前面的异常，这个 resolve 回调不会执行
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Then after throw error&#39;</span><span class="p">)</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// 由于前面的异常，这个 resolve 回调不会执行
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;Then after throw error&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="s1">&#39;resolve-22&#39;</span>
+<span class="p">},</span> <span class="nx">error</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// 截获并处理错误信息
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">,</span> <span class="s1">&#39;then&#39;</span><span class="p">)</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// 错误信息已被处理，该行正行打印
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">res</span><span class="p">)</span>
+<span class="p">}).</span><span class="k">catch</span><span class="p">(</span><span class="nx">error</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// 错误信息已被处理，当前 Promise 状态为成功，这里不会执行
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">error</span><span class="p">.</span><span class="nx">message</span><span class="p">,</span> <span class="s1">&#39;catch&#39;</span><span class="p">)</span>
+<span class="p">}).</span><span class="nx">then</span><span class="p">(</span><span class="nx">res</span> <span class="p">=&gt;</span> <span class="p">{</span>
+    <span class="c1">// 正常输出
+</span><span class="c1"></span>    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">&#39;after catch&#39;</span><span class="p">)</span>
 <span class="p">})</span>
 </code></pre></td></tr></table>
 </div>
