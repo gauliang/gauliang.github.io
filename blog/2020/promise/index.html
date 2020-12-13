@@ -71,7 +71,7 @@
                 <nav id="TableOfContents">
   <ul>
     <li><a class="nav-link"  href="#概述">概述</a></li>
-    <li><a class="nav-link"  href="#链试调用">链试调用</a></li>
+    <li><a class="nav-link"  href="#链式调用">链式调用</a></li>
     <li><a class="nav-link"  href="#错误处理">错误处理</a></li>
     <li><a class="nav-link"  href="#错误处理的链式调用">错误处理的链式调用</a></li>
     <li><a class="nav-link"  href="#promise-api">Promise API</a></li>
@@ -137,7 +137,7 @@ Promise 有点类似于事件侦听器，但有以下两点区别：</p>
 </code></pre></td></tr></table>
 </div>
 </div><p><code>then()</code> 包含两个参数：一个用于成功情形的回调和一个用于失败情形的回调。这两个皆可选，因此您可以只添加一个用于成功情形或失败情形的回调。</p>
-<h2 id="链试调用">链试调用</h2>
+<h2 id="链式调用">链式调用</h2>
 <p>（一）、可以在方法中返回或改变值：</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -224,7 +224,7 @@ Promise 有点类似于事件侦听器，但有以下两点区别：</p>
 </div><h2 id="错误处理的链式调用">错误处理的链式调用</h2>
 <ol>
 <li>一旦发生错误，后续所有 <code>then() 方法的 resolve 回调</code> 将都不会执行，直至遇到 <code>catch()</code> 或 <code>then() 方法的 reject 回调</code>;</li>
-<li>错误一经处理，将返回成功的 Promise，后续链时调用的 <code>then()</code> 会正常执行；</li>
+<li>错误一经处理，将返回成功的 Promise，后续链式调用的 <code>then()</code> 会正常执行；</li>
 <li>所以，如果在 <code>catch()</code> 之前的 <code>then()</code> 方法中通过 <code>reject</code> 回调处理了异常，后面的 <code>catch()</code> 将不会执行;</li>
 </ol>
 <div class="highlight"><div class="chroma">
