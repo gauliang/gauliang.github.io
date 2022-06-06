@@ -1,1 +1,0 @@
-{"pageProps":{"tag":"MySQL","total":1,"posts":[{"title":"常用系统 root 密码重置","date":1579617888000,"draft":false,"description":"本文介绍如何重置各类常用业务系统的超级管理员账号密码，如 MySQL、Gitlab 等。","type":"posts","tags":["MySQL","Gitlab","handbook"],"series":[],"author":"Gl","cover":"password_security_feature.png","slug":"2020/reset-password"}]},"__N_SSG":true}
