@@ -1,0 +1,1 @@
+{"pageProps":{"tag":"MVC","total":1,"posts":[{"title":"PHP MVC 架构","author":"高国良","type":"posts","series":false,"date":1403135580791,"tags":["reflection","MVC"],"description":"MVC (Model-View-Controller,模型-视图-控制器)是一种可以简化应用程序开发和维护的非常常用的设计模式。它从逻辑上把应用程序分隔为个部分。","draft":false,"cover":false,"path":"/blogs/2014/php-mvc-architecture","slug":"2014/php-mvc-architecture"}]},"__N_SSG":true}
