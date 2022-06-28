@@ -1,1 +1,0 @@
-{"pageProps":{"tag":"csharp","total":1,"posts":[{"title":"WPF中异步更新UI元素","author":"高国良","type":"posts","series":false,"date":1408664340791,"tags":["wpf","csharp"],"description":"实现点击 button 时，lable 的内容从 0 开始自动递增。","draft":false,"cover":false,"path":"/blogs/2014/aynchronous-update-ui-element-in-wpf","slug":"2014/aynchronous-update-ui-element-in-wpf"}]},"__N_SSG":true}
